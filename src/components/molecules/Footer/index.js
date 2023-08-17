@@ -5,29 +5,29 @@ const Footer = (props) => {
   return (
     <footer className="Footer">
       <section>
-        Designed and built with{' '}
-        <span className="Footer__Heart">&hearts;</span> by{' '}
+        Designed and built by{' '}
+        <span className="Footer__Heart">&hearts;</span> {' '}
         <a
-          href="https://www.linkedin.com/in/ramiz-rahman/"
+          href="https://www.linkedin.com/in/vishnu-jadhav-363ba0239"
           target="_blank"
           rel="noopener noreferrer"
           className="Footer__Link"
         >
-          Ramiz Rahman
+          Vishnu Jadhav
         </a>
       </section>
 
       <section className="Footer__Items">
-        <a
+        {/* <a
           href="https://youtu.be/JFjvVmvC3pQ"
           target="_blank"
           rel="noopener noreferrer"
           className="Footer__Link"
         >
           Demo
-        </a>
+        </a> */}
         <a
-          href="https://github.com/ramiz-rahman/sort-visualizer"
+          href="https://github.com/vishnujadhav07/sorting-visualizer-using-react"
           target="_blank"
           rel="noopener noreferrer"
           className="Footer__Link"
